@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b10">
+<title>LYN</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#020406;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif}.app{max-width:520px;margin:auto;background:radial-gradient(circle at 30% 0,#1b2631,#070b10 42%,#030507);min-height:100vh;padding-bottom:90px}.section{padding:18px 16px}.hero{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 50% 42%,#30220a,#06080b 58%)}.center{text-align:center;width:100%}.logo{font-size:72px;font-weight:950;letter-spacing:8px;color:#efbd42;text-shadow:0 0 35px #efbd4255}.muted{color:#9aa7b1}.card{background:linear-gradient(150deg,#121b24,#0a1118);border:1px solid #2b3b49;border-radius:18px;padding:16px;margin:12px 0}.gold{border-color:#876426;background:linear-gradient(180deg,#f5c54d,#dca32b);color:#080b0e;font-weight:900}.btn{display:block;width:100%;padding:14px;border-radius:14px;text-align:center;text-decoration:none;color:#fff;background:#111b25;border:1px solid #3a4b5a;margin:9px 0}.title{font-size:25px;font-weight:900}.balance{font-size:32px;font-weight:900}.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.pill{display:inline-block;padding:5px 9px;border-radius:99px;background:#12392e;color:#55e0ae;font-size:11px}.input{width:100%;padding:14px;margin:6px 0;background:#091119;border:1px solid #314452;border-radius:12px;color:white}.vip{padding:13px;border:1px solid #365163;border-radius:14px;margin:8px 0;background:#0c151d}.v0{border-color:#35d79a;background:#09271f}.v1{border-color:#2796e8}.v2{border-color:#9b42e6}.v3{border-color:#d8922b}.v4{border-color:#e44759}.warning{border-color:#886728;background:#2a210f;color:#f2d98d}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);background:#080d13f5;border-top:1px solid #293947;padding:8px;display:grid;grid-template-columns:repeat(5,1fr);z-index:9}.nav a{color:#9aa7b1;text-decoration:none;text-align:center;font-size:10px}.nav span{display:block;font-size:20px;margin-bottom:2px}.address{word-break:break-all;font-size:12px;line-height:1.5}.back{color:#efbd42;text-decoration:none}.activity{padding:11px 0;border-bottom:1px solid #20303c}.qr{height:150px;background:#fff;color:#111;display:grid;place-items:center;font-size:70px;border-radius:10px}.small{font-size:12px}.legal{font-size:11px;color:#74818c;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="app">
+
+<section id="inicio" class="section hero">
+<div class="center">
+<div class="logo">LYN</div>
+<p class="muted">Juntos vamos mais longe</p>
+<div style="height:150px;border-bottom:2px solid #b88a2c;border-radius:50%;margin:30px 0;background:radial-gradient(ellipse,#5d4317,transparent 65%)"></div>
+<a class="btn gold" href="#entrar">Entrar</a>
+<a class="btn" href="#criar">Criar conta</a>
+</div>
+</section>
+
+<section id="entrar" class="section">
+<a class="back" href="#inicio">‹ Voltar</a>
+<div class="card">
+<div class="logo" style="font-size:44px">LYN</div><div class="title">Entrar</div>
+<input class="input" placeholder="Email"><input class="input" type="password" placeholder="Palavra-passe">
+<a class="btn gold" href="#dashboard">Continuar</a>
+<p class="legal">Demonstração local. Não movimenta fundos reais.</p>
+</div>
+</section>
+
+<section id="criar" class="section">
+<a class="back" href="#inicio">‹ Voltar</a>
+<div class="card">
+<div class="logo" style="font-size:44px">LYN</div><div class="title">Criar conta</div>
+<input class="input" placeholder="Nome completo"><input class="input" placeholder="Email"><input class="input" type="password" placeholder="Palavra-passe">
+<a class="btn gold" href="#dashboard">Criar conta</a>
+<p class="legal">Demonstração local. Não movimenta fundos reais.</p>
+</div>
+</section>
+
+<section id="dashboard" class="section">
+<div class="row"><b class="title">LYN</b><span class="pill">USDT · BEP-20</span></div>
+<div class="card"><span class="muted">Saldo total</span><div class="balance">352.48 USDT</div><span style="color:#35d79a">+12.43 (3.7%) hoje</span></div>
+<div class="grid"><a class="btn" href="#deposito">⇩<br>Depositar</a><a class="btn" href="#levantar">⇧<br>Levantar</a><a class="btn" href="#investir">◉<br>Investir</a><a class="btn" href="#equipa">♧<br>Equipa</a></div>
+<div class="card"><div class="row"><b>VIP 0</b><span class="pill">Atual</span></div><span class="muted">1,5% ao dia proposto · 0 ativos</span></div>
+<div class="card"><span class="muted">Rendimento estimado hoje</span><div class="balance" style="font-size:25px">5.29 USDT</div></div>
+</section>
+
+<section id="carteira" class="section">
+<div class="title">Carteira</div>
+<div class="card"><span class="muted">Saldo em USDT</span><div class="balance">352.48 USDT</div><div class="grid"><a class="btn" href="#deposito">Depositar</a><a class="btn" href="#levantar">Levantar</a></div></div>
+<div class="card"><b>USDT</b><br><span class="muted">BEP-20</span><p class="address">0xff379B7BA319030178df587411334516ce98c2Ba</p><span class="pill">✓ BNB Smart Chain (BEP-20)</span></div>
+<div class="card warning">⚠️ <b>Atenção</b><br><span class="small">Envie apenas USDT na rede BEP-20.</span></div>
+</section>
+
+<section id="deposito" class="section">
+<a class="back" href="#dashboard">‹ Voltar</a><div class="title">Depósito</div>
+<div class="card" style="text-align:center"><div style="font-size:55px">₮</div><b>USDT (BEP-20)</b></div>
+<div class="card"><span class="muted">Endereço da carteira</span><p class="address">0xff379B7BA319030178df587411334516ce98c2Ba</p><b>Rede</b><p class="muted">BNB Smart Chain (BEP-20)</p></div>
+<div class="card warning">⚠️ <b>Apenas USDT na rede BEP-20</b></div><div class="qr">▦</div>
+</section>
+
+<section id="levantar" class="section">
+<a class="back" href="#dashboard">‹ Voltar</a><div class="title">Levantar</div>
+<div class="card"><span class="muted">Saldo disponível</span><div class="balance">352.48 USDT</div></div>
+<input class="input" placeholder="Digite o valor USDT"><div class="grid"><div class="card">50</div><div class="card">100</div><div class="card">200</div><div class="card">500</div></div>
+<div class="card"><div class="row"><span>Mínimo</span><b>50 USDT</b></div><div class="row"><span>Taxa</span><b>3%</b></div><div class="row"><span>Processamento</span><b>Até 24 horas</b></div></div>
+<a class="btn gold" href="#dashboard">Solicitar levantamento</a>
+</section>
+
+<section id="investir" class="section">
+<a class="back" href="#dashboard">‹ Voltar</a><div class="title">Investimentos</div>
+<div class="card warning">As taxas abaixo são parâmetros propostos e não representam rendimento garantido.</div>
+<div class="vip v0"><b>🟢 VIP 0</b><br>50 – 200 USDT · 0 pessoas ativas<br>1,5% ao dia proposto</div>
+<div class="vip v1"><b>🔵 VIP 1</b><br>250 – 500 USDT · 5 pessoas ativas<br>3% ao dia proposto</div>
+<div class="vip v2"><b>🟣 VIP 2</b><br>600 – 1.000 USDT · 10 pessoas ativas<br>5% ao dia proposto</div>
+<div class="vip v3"><b>🟠 VIP 3</b><br>1.100 – 1.800 USDT · 30 pessoas ativas<br>8% ao dia proposto</div>
+<div class="vip v4"><b>🔴 VIP 4</b><br>2.000 – 2.500 USDT · 45 pessoas ativas<br>10% ao dia proposto</div>
+</section>
+
+<section id="equipa" class="section">
+<a class="back" href="#dashboard">‹ Voltar</a><div class="title">Minha Equipa</div>
+<div class="card"><span class="muted">Pessoas ativas</span><div class="balance">0 / 0</div></div>
+<div class="card"><b>Regras para subir de nível</b><p style="color:#35d79a">✓ Investimento mínimo</p><p style="color:#35d79a">✓ Número exigido de pessoas ativas</p><p style="color:#35d79a">✓ Manter o investimento mínimo</p></div>
+</section>
+
+<section id="perfil" class="section">
+<a class="back" href="#dashboard">‹ Voltar</a><div class="title">Perfil</div>
+<div class="card"><b>LYN</b><br><span class="muted">ID: 123456</span><br><span class="pill">VIP 0</span></div>
+<div class="card"><p>Meu saldo　›</p><p>Meus investimentos　›</p><p>Minha equipa　›</p><p>Histórico　›</p><p>Suporte　›</p><p>Configurações　›</p></div>
+</section>
+
+<nav class="nav">
+<a href="#dashboard"><span>⌂</span>Início</a>
+<a href="#carteira"><span>▣</span>Carteira</a>
+<a href="#investir"><span>◉</span>Investir</a>
+<a href="#equipa"><span>♧</span>Equipa</a>
+<a href="#perfil"><span>♙</span>Perfil</a>
+</nav>
+</div>
+</body>
+</html>
